@@ -1,0 +1,134 @@
+ body {
+    font-family: 'Roboto', sans-serif;
+ }
+
+ #nav {
+    font-size: 14px;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+  }
+#app-img {
+    width : 20px;
+    height : 20px;
+    }
+
+  #nav a {
+    color: #212121;
+    text-decoration: none;
+  }
+#nav a:hover {
+    text-decoration: underline;
+  }
+
+#connexion-button {
+    background: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    width: 117px;
+    height: 36px;
+    color: white;
+    font-size: 14px;
+    font-weight: semi-bold;
+}
+#connexion-button:hover {
+  background: #1c61bc;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#logo {
+  max-height: 92px;
+  margin-bottom: 20px;
+}
+
+#main {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  }
+  
+  #search-field {
+    width: 500px;
+    height: 40px;
+    border-radius: 40px;
+    text-indent: 20px;
+    border: 1px solid #BDBDBD;
+  }
+  
+  #search-field:focus, #search-field:hover {
+    box-shadow: 2px 3px 5px #BDBDBD;
+  }
+
+  input[type="submit"] {
+    margin: 15px 5px;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    color: #6E6E6E;
+  }
+
+  #search-buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  input[type="submit"]:hover {
+    border: 1px solid #6E6E6E;
+    color: gray;
+    background: #ECECEC;
+    box-shadow: 2px 3px 5px #EFEFEF;
+  }
+
+ ul {
+    list-style: none;
+  }
+  p {
+    color: #70757a;
+}
+
+#footer-top a, #footer-center a, #footer-left-one a, #footer-left-two a {
+  color: #6E6E6E;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#footer-top a:hover, #footer-center a:hover, #footer-left-one a:hover, #footer-left-two a:hover {
+  text-decoration: underline;
+}
+
+
+#footer-top {
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background: #F2F2F2;
+  text-indent: 20px;
+  border-top: 1px solid #E4E4E4;
+  border-bottom: 1px solid #E4E4E4;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  color:#6E6E6E;
+}
+
+#footer-left-one {
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background: #F2F2F2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #E4E4E4;
+  color: #6E6E6E;
+}
+
+#footer-left-one li:first-child {
+  margin-left: -20px;
+}
